@@ -16,6 +16,7 @@ class DosesController < ApplicationController
   end
 
   def destroy
+    raise
   @dose = Dose.find(params[:id])
   @dose.destroy
   # @cocktail = Cocktail.find(params[:cocktail_id])
